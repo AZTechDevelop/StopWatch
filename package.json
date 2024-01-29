@@ -1,6 +1,6 @@
 {
   "name": "codespaces-react",
-  "homepage": "https://AZTechDevelop.github.io/StopWatch",
+  "homepage": "http://AZTechDevelop.github.io/StopWatch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
   "scripts": {
     "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest"
